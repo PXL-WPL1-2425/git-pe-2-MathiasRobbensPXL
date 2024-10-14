@@ -1,13 +1,73 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#riot_logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -55px;
+    left: 0;
+    right: 0;
+}
+.menu{
+    width: 33.333%;
+    justify-content: center;
+}
+header{
+    position: relative;
+}
 nav {
-    width: 33.33%;
+    margin: 0 auto;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
 }
 
-#logo_riot_games{
-    width:250px;
-    height:250px;
+nav ul{
+    list-style-type: none;
+    display: inline-block;
 }
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px  25px;
+    color: white;
+    font-size: 14px;
+}
+nav ul li.menu{
+    align-items: center;
+    justify-content: center;
+}
+/*#sign_in{*/
+/*    border: 2px solid red;*/
+/*    background-color: red;*/
+/*    color: black;*/
+/*    border-radius: 5px;*/
+/*    padding: 1px 22px;*/
+/*    position: absolute;*/
+/*    right: 20px;*/
+/*    top: 10px;*/
+/*}*/
+
+
+/*.hero_new__video{*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: auto;*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    z-index: -1;*/
+/*}*/
